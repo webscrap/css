@@ -1,0 +1,53 @@
+a:link, a:active,a:visited,{
+	color : #4A7EC7;
+	text-decoration:none;
+}
+a:hover {
+	color : #4A7EC7;
+	text-decoration:underline;
+		}
+body ,.post{
+	font-size:15px;
+	line-height:140%;
+}		
+.post ,.day {
+	color:#000000;
+}
+.day{
+	background-image:url('/Skins/ClearScreen01/images/back.gif');
+}
+.headerText{	
+	background:url("http://www.cnweblog.com/images/cnweblog_com/xiaoranzzz/3849/o_001.gif") no-repeat;
+	height:90px;
+	padding-left:85px;
+	padding-top:30px;
+}
+.header{
+	padding-top:10px;
+}
+.postDesc
+{
+	/*background: #FAF4C8;
+	border-right: 1px solid #E3DE9F;
+	border-bottom: 1px solid #E3DE9F;
+	color : #777;*/
+	font-size:7pt;
+	font-weight: bold;
+	line-height: 120%;
+	padding-top:3px;                        
+	text-align: right;
+}
+.feedbackListTitle {
+	font-size:11px;
+}
+
+.feedbackListSubtitle {
+	font-size:11px;
+}
+.posttitle{
+	background-color:#eBeDf2;
+	padding:5px;
+	padding-right:7px;
+	border:1px dotted #8B8D72;
+	margin-bottom:8px;
+}

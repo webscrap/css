@@ -1,0 +1,67 @@
+body {
+	color: #222;
+	margin-left:8;
+	margin-right:8;
+	margin-top:5;
+	margin-bottom:5;
+	padding:0;
+	background-color:#808080;
+	line-height: 120%;
+	scrollbar-face-color:#B8B8B8;
+	scrollbar-highlight-color:#FFFFFF;
+	scrollbar-3dlight-color:#C0C0C0;
+	scrollbar-darkshadow-color:#B8B8B8;
+	scrollbar-shadow-color:#FFFFFF;
+	scrollbar-arrow-color:#FFFFFF;
+	scrollbar-track-color:#E0E0E0;
+}
+.Framework {
+	border:1px solid #000000;
+	border-collapse: collapse;
+	background-color: #ffffff;
+}
+.post{  
+	border-left: 1px solid #8cacbb;
+	border-right: 1px solid #8cacbb;
+	border-bottom: 1px solid #8cacbb;
+	border-top: 1px solid #8cacbb;   
+}
+.posthead{
+	background-color: #dee7ec;
+	font-size:9pt;
+	background-image:none;
+	border:0px none;
+}
+.postbody {
+	font-size:9.5pt;
+	padding:8px;
+}
+.postfoot {
+	font-size:9pt;
+}
+#Footer {
+	border : 1px solid Black;
+	margin : 10;
+	padding : 10;
+	background : #dee7ec;
+}
+.LeftCell {
+             width:240px;
+}
+#LeftMenu{
+            width:220px;
+}
+#leftmenu a:active,
+#leftmenu a:visited,
+#leftmenu a:link {
+	color : #1d58d1;
+	text-decoration : none;	
+	margin-right : 0px;
+	padding : 2px;
+}
+
+#leftmenu a:hover {
+	text-decoration: underline;
+	color: #1D58D1;
+	background:#dee7ec;
+}

@@ -1,0 +1,735 @@
+body, td
+{
+	background-color: #FFFFFF;
+	font-size: 12px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	word-wrap: break-word;
+}
+
+a:visited, a:active, a:link
+{
+	color: #355EA0;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+blockquote
+{
+	font-style: italic;
+}
+
+#header
+{
+	background-image: url(images/header.gif);
+	background-repeat: no-repeat;
+	height: 80px;
+	background-color: #FFFFFF;
+	border-bottom: 0px solid #E4E5E5;
+	color: #000000;
+	margin: 0px;
+	padding: 10px 10px 15px 10px;
+}
+
+#header a
+{
+	color: #000000;
+	font-family: "trebuchet ms" , "lucida grande" , verdana, arial, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+
+
+#menu h1
+{
+	color: #FF6600;
+	font-family: "trebuchet ms" , "lucida grande" , verdana, arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+#menu h3
+{
+	color: #FF6600;
+	font-family: "trebuchet ms" , "lucida grande" , verdana, arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+#menu ul
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px 0px 15px 5px;
+	font-size: 8pt;
+}
+
+.listitem img
+{
+	margin-left: 5px;
+}
+
+.listitem
+{
+	color: #9F8248;
+}
+
+/*a.listitem:visited, a.listitem:active, a.listitem:link {	
+	color : #355EA0;
+	text-decoration : none;
+}
+
+a.listitem:hover {
+	color: #FF6600;
+	text-decoration : underline;
+}*/
+
+#LoginForm
+{
+	color: #808080;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: justify;
+}
+
+#LoginForm input.text
+{
+	border: 1px dashed #C0C0C0;
+	font-size: 8pt;
+	width: 180px;
+}
+
+
+h1.block_title
+{
+	background-image: url(images/day_header.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+	color: #FF6600;
+	font-family: "trebuchet ms" , "lucida grande" , verdana, arial, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	height: 59px;
+	margin: 10px 0px 0px 0px;
+	padding: 20px 0px 3px 20px;
+	text-transform: uppercase;
+}
+
+h1.block_title img
+{
+	vertical-align: middle;
+}
+
+h1.block_title a:visited, h1.block_title a:active, h1.block_title a:link
+{
+	color: #FF6600;
+}
+
+div.block
+{
+	background-image: url(images/main_background.gif);
+	background-position: top left;
+	background-repeat: repeat-y;
+	font-size: 8pt;
+	text-align: justify;
+	background-color: #FFF;
+}
+
+div.block_footer
+{
+	background-image: url(images/day_footer.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+	height: 67px;
+}
+
+div.post
+{
+	padding-left: 30px;
+	margin-left: 20px;
+	background-color: #FFF;
+}
+
+div.posttitle
+{
+	color: #355EA0;
+	font-family: "trebuchet ms" , "lucida grande" , verdana, arial, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.posttitle a:visited, .posttitle a:active, .posttitle a:link
+{
+	color: #FF6600;
+	text-decoration: none;
+}
+
+.posttitle a:hover
+{
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+div.itemdesc
+{
+	color: #808080;
+	font-size: 10px;
+	font-family: "trebuchet ms" , "lucida grande" , verdana, arial, sans-serif;
+	text-transform: uppercase;
+}
+
+div.seperator
+{
+	background-image: url(images/post_footer.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+	margin: 15px 0px 10px 0px;
+}
+
+div.entrylistitem
+{
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+a.entrylisttitle, a.entrylisttitle:visited, a.entrylisttitle:link, a.entrylisttitle:active
+{
+	color: #FF6600;
+	font-family: "trebuchet ms" , "lucida grande" , verdana, arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.moreinfo
+{
+	font-size: 8pt;
+	text-align: justify;
+}
+
+div.moreinfotitle
+{
+	color: #FF6600;
+	font-family: "trebuchet ms" , "lucida grande" , verdana, arial, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+div.comments
+{
+	font-size: 8pt;
+}
+
+div.comment
+{
+	background-color: #FBFBFB;
+	border: 1px dashed #DDDDDD;
+	margin: 10px 0px 10px 0px;
+	padding: 10px;
+}
+
+div.comment_author
+{
+	margin: 5px 0px 5px 0px;
+}
+
+div.comment_content
+{
+	margin: 5px 0px 5px 0px;
+}
+
+#postcomment
+{
+	border: 1px solid #DDDDDD;
+	background-color: #FBFBFB;
+	font-size: 8pt;
+	padding: 10px;
+	text-align: justify;
+	margin-top: 15px;
+	width: 435px;
+}
+
+#postcomment div
+{
+	color: #808080;
+	font-size: 10px;
+	font-weight: bold;
+	margin: 5px 0px 5px 0px;
+}
+
+#postcomment input.text, textarea
+{
+	border: 1px solid #DDDDDD;
+	font-size: 8pt;
+}
+
+.footer
+{
+	border-top: 1px solid #E4E5E5;
+	clear: both;
+	margin: 0px;
+	padding-top: 5px;
+	text-align: center;
+	font-size: 0.7em;
+}
+
+input.text
+{
+	width: 300px;
+}
+
+textarea
+{
+	width: 300px;
+	height: 200px;
+}
+
+#relatedlinks ul
+{
+	list-style: none;
+	margin-left: 10px;
+	padding: 0px;
+}
+
+
+.Cal
+{
+	border: 1px solid #999999;
+	width: 100%;
+	font-family: Arial;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 180px;
+}
+
+.CalTitle
+{
+	background-color: #FFF1E4;
+	border-color: #ADF;
+	font-family: Arial;
+	font-size: 13px;
+	color: #FF6600;
+	margin-left: 0px;
+	padding: 0px;
+	height: 100%;
+	font-weight: bold;
+}
+
+.CalOtherMonthDay
+{
+	color: #808080;
+}
+
+.CalSelector
+{
+}
+
+.CalNextPrev
+{
+}
+
+.CalDayHeader
+{
+	background-color: #FFFFFF;
+}
+
+.CalSelectedDay
+{
+}
+
+.CalWeekendDay
+{
+}
+
+.CalTodayDay
+{
+	background-color: #CCCCCC;
+}
+
+body, html
+{
+	background: #CCCC9A;
+	color: #555555;
+	font-family: ms shell dlg;
+	font-size: 12px;
+	margin: 0;
+	line-height: 150%;
+	padding: 10px 0 10px 0;
+	text-align: center;
+}
+#nadframe
+{
+	display: none;
+}
+form
+{
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 14px;
+}
+
+.pagelayout
+{
+	margin: auto;
+	padding: 0px 0px 0px 0px;
+	width: 800px;
+	font-size: 14px;
+	text-align: left;
+	background: url(images/o_Body.jpg);
+	background-color:#FFF;
+}
+a:visited, a:active, a:link
+{
+	color: #9F8248;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #9F8248;
+	text-decoration: none;
+	padding: 3px;
+	background: #D7EDB7;
+	border-bottom: 1px dotted #333;
+}
+
+blockquote
+{
+	font-style: italic;
+}
+
+#header
+{
+	filter: revealTrans(Transition=5, Duration=23);
+	text-align: right;
+	color: #808080;
+	font-size: 12px;
+	font-family: ms shell dlg;
+	padding-top: 0px;
+	padding-right: 20px;
+	background: url(images/o_8beijing.gif) no-repeat;
+	height: 210px;
+	width: 100%;
+}
+#header span
+{
+	float: left;
+	padding-top: 160px;
+	text-align: right;
+	padding-left: 180px;
+}
+#header #Header1_HeaderTitle
+{
+	color: #000000;
+	font-size: 14px;
+	font-family: arial;
+	line-height: 120%;
+	font-weight: bold;
+	color: #D44F3C;
+}
+#main
+{
+	float: left;
+	padding: 0px 20px 0px 0px;
+	margin-left:12px;
+	width: 555px;
+	font-size: 14px;
+	line-height: 160%;
+	color: #555555;
+	word-wrap: break-word;
+	background-color:#FFF;
+}
+#footer
+{
+	clear: both;
+	border-top: 0px solid #c0c0c0;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 12px;
+}
+
+#menu
+{
+	clear: both;
+	padding: 0;
+	float: right;
+	width: 195px;
+	padding-top: 15px;
+	word-wrap: break-word;
+	border-left: 1px dotted #c0c0c0;
+	padding-left: 0px;
+	background-color:#FFF;
+	margin-left:0px;
+	padding-left:5px;
+	margin-right:12px;
+}
+#menu h1
+{
+	color: #C1B98A;
+	padding: 12px 0px 0px 5px;
+	width: 100%;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px;
+	background: url(images/o_h18.gif) no-repeat;
+	height: 21px;
+}
+
+#menu h3
+{
+	color: #C1B98A;
+	padding: 12px 0px 0px 5px;
+	width: 100%;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px;
+	background: url(images/o_h18.gif) no-repeat;
+	height: 21px;
+}
+#menu ul
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px 22px 15px 5px;
+	font-size: 12px;
+}
+#comments
+{
+	font-size: 12px;
+	line-height: 150%;
+}
+#comments a
+{
+	font-weight: bold;
+}
+.postTitle
+{
+	font-weight: bold;
+}
+.postTitle a, .postTitle a:link, .postTitle a:visited
+{
+	color: #9F8248;
+	font-size: 14px;
+}
+
+
+div, select, input
+{
+	font-size: 12px;
+	word-wrap: break-word;
+}
+div.block
+{
+	background-image: url(images/main_background.gif);
+	background-position: top left;
+	background-repeat: repeat-y;
+	font-size: 12px;
+	text-align: justify;
+}
+
+div.block_footer
+{
+	background-image: url(images/day_footer.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+	height: 67px;
+}
+
+div.post
+{
+	padding-left: 0px;
+}
+
+.dateTitle
+{
+	color: #808080;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 280%;
+}
+div.posttitle
+{
+	color: #9F8248;
+	font-family: "ms shell dlg";
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.posttitle
+{
+	background: #FFF url(images/o_li8.gif) no-repeat;
+	height: 30px;
+	padding-left: 30px;
+}
+div.postText
+{
+	line-height: 160%;
+	font-size: 12px;
+}
+.posttitle a:visited, .posttitle a:active, .posttitle a:link
+{
+	color: #9F8248;
+	text-decoration: none;
+}
+
+.posttitle a:hover
+{
+	color: #9F8248;
+	text-decoration: none;
+	padding: 3px;
+	border-bottom: 1px dotted #9F8248;
+}
+.postFoot
+{
+	line-height: 120%;
+	border-bottom: 1px dotted #808080;
+	font-size: 12px;
+}
+div.itemdesc
+{
+	color: #808080;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+div.seperator
+{
+	background-position: top left;
+	background-repeat: no-repeat;
+	margin: 15px 0px 10px 0px;
+}
+
+div.entrylistitem
+{
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+a.entrylisttitle, a.entrylisttitle:visited, a.entrylisttitle:link, a.entrylisttitle:active
+{
+	color: #FF6600;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.moreinfo
+{
+	font-size: 12px;
+	text-align: justify;
+}
+
+div.moreinfotitle
+{
+	color: #FF2a00;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+div.comments
+{
+	font-size: 12px;
+}
+
+div.comment
+{
+	background-color: #FBFBFB;
+	font-size: 12px;
+	border: 0px dotted #DDDDDD;
+	margin: 10px 0px 10px 0px;
+	padding: 10px;
+}
+
+div.comment_author
+{
+	margin: 5px 0px 5px 0px;
+	font-size: 12px;
+}
+
+div.comment_content
+{
+	margin: 5px 0px 5px 0px;
+	font-size: 12px;
+}
+
+#postcomment
+{
+	border: 0px solid #DDDDDD;
+	background-color: #FBFBFB;
+	font-size: 12px;
+	padding: 10px;
+	text-align: justify;
+	margin-top: 15px;
+	width: 435px;
+}
+
+#postcomment div
+{
+	color: #808080;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 5px 0px 5px 0px;
+}
+
+#postcomment input.text, textarea
+{
+	border: 1px solid #DDDDDD;
+	font-size: 12px;
+}
+
+input.text
+{
+	width: 300px;
+}
+
+textarea
+{
+	width: 300px;
+	height: 200px;
+}
+
+#relatedlinks ul
+{
+	list-style: none;
+	margin-left: 10px;
+	padding: 0px;
+}
+
+span.highlight
+{
+	background-color: Yellow;
+}
+.block_title
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+.code
+{
+	float: left;
+	width: 90%;
+	padding: 10px;
+	border: 1px dotted #d9d9d9;
+	background: #f4f4f4;
+}
+.postFoot
+{
+	clear: both;
+	padding-top: 6px;
+}
+br
+{
+	clear: both;
+}
+
+.commentform
+{
+	margin-left: 20px;
+}

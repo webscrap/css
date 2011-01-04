@@ -1,0 +1,169 @@
+body #leftmenu,#main,#top
+{
+    background-image:none;
+	background-color: none;
+	background-color: transparent;
+    border:none;
+}
+
+body {  
+    background:#EEEEEE;//C0BBA5;
+}
+#main {
+    background-color:#EEEEEE;//#C0BBA5;
+}
+#leftmenu {
+  background-color:#EEEEEE;//#C0BBA5;
+}
+
+#top {
+/*
+    background-image:url('/images/cnweblog_com/xiaoranzzz/3849/o_redflag.jpg');
+   background-repeat: no-repeat;
+   background-position:top right;
+ background:#C0BBA5 url('/images/cnweblog_com/xiaoranzzz/3849/o_background.gif') repeat-x;
+*/
+   background-image:none;
+   background-color:#EEEEEE;
+    width:100%;
+    text-align:center;
+    margin:0px;
+    padding:0px;
+    border-bottom: solid 1px #000000;
+}
+#top table {
+
+    width:100%;
+}
+#top .headerTitles{
+    width:100%;
+    padding-top:26px;
+    padding-bottom:20px;
+    text-indent:0px;
+    text-align:center;
+}
+
+
+
+.HeaderTitles a:visited, .HeaderTitles a:active, .HeaderTitles a:link, .HeaderTitles a:hover
+{
+    text-indent:0px;
+    font-family:隶体,明体,仿宋体,Aria,Times,Veranda;
+    font-weight:bold;
+    font-size:24px;
+    color:#000000;
+}
+
+
+#tagline {
+    text-indent:0px;
+    font-size:16px;
+    font-family:Terminus,隶体,明体,仿宋体,Aria,Times,Veranda;
+    font-weight:bold;
+    font-style:italic;
+    font-size:16px;
+    color:#000000;
+}
+
+.HeaderBar a:visited, .HeaderBar a:active, .HeaderBar a:link {
+	color: #000000;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+#top,#tagline,.HeaderMainTitle,#Header1_HeaderTitle {
+       color:#000000;
+}
+
+
+
+.HeaderBarTab {
+    color:#000000;
+}
+#HeaderBar,.HeaderBar,.HeaderBarTab {
+    background-image:none;
+}
+#Header1_BlueTab {
+    display:none;
+}
+.BlogStatsBar
+{
+	text-align: right;
+	font-weight: normal;
+	font-size: 11.5;
+	color: #000000;
+	border-collapse: collapse;
+}
+
+/*
+#HeaderBar {
+ position:absolute;
+ left:0px;
+}
+*/
+
+.quoted {
+    border: 1px solid rgb(204, 204, 204);
+    padding: 4px 5px 4px 4px; 
+    background-color: rgb(238, 238, 238); 
+    font-size: 13px;
+    width: 98%;
+}
+
+
+
+#leftmenu h3 {
+ border:none;
+}
+
+
+div.postText p {
+  text-indent:2em;
+}
+
+#leftmenu {
+    margin:0px;
+    padding:0px;  
+    margin-top:20px;
+    padding-right:10px;
+    padding-left:5px;
+    width:200px;
+    border:1px solid #000000;
+   border-left:none;
+}
+
+#main {
+  margin-left:230px;
+  border:none;
+}
+#footer{ 
+  display:none;
+}
+.copyright {
+}
+div.postTitle a:visited, div.postTitle a:active, div.postTitle a:link, div.postTitle a:hover {
+    padding-top:10px;
+    font-weight:bold;
+    font-size:14px;
+    color:#000000;
+}
+div.post,div.postTitle,div.postText {
+  border:none;
+  background-color:transparent;
+  line-height:150%;
+}
+
+div.postFoot{
+ border:none;
+ background-color:transparent;
+}
+
+
+div.post {
+  margin:10px;
+  padding:10px;
+  padding-left:15px;
+  padding-right:15px;
+  background:#FFFFFA url('/images/cnweblog_com/xiaoranzzz/3849/o_main.gif') repeat-x;
+ border:2px solid #d0cbb5;
+}

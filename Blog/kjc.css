@@ -1,0 +1,173 @@
+body {
+ 
+ 
+}
+.maincell {
+background-image:url('http://www.wallcoo.com/paint/crystal/mxxx01/ml0010.jpg');
+background-attachment:fixed;
+}
+#top {
+
+background-image:url('http://www.wallcoo.com/photograph/summer_drinks/mxxx01/%5Bwallcoo.com%5D_summer_drinks_453756.jpg');
+background-attachment: fixed; 
+}
+ .leftcell {
+background-image:url('http://www.wallcoo.com/photograph/summer_drinks/mxxx01/%5Bwallcoo.com%5D_summer_drinks_443655.jpg');
+background-attachment: fixed; 
+}
+/*font*/
+
+body,p,#cell,.postbody {
+	font-size:12px;
+}
+
+/*main color style*/
+
+	/*BODY*/
+		body,.Framework{
+			/*fgcolor*/ color:black;
+			/*bgcolor background-color:white;*/
+		}
+		a {
+			/*fgcolor*/ color:#226285;
+			text-decoration: underline;
+		}
+		a:hover{
+			/*fgcolor*/ color:#851912;
+			text-decoration: underline;
+		}
+
+	/*LEFT*/
+		.leftcell,#leftmenu,#cell,#cal h3,#cell h3,#leftmenu h3,.RecentComment{
+			/*fgcolor*/ color:black;
+			/*bgcolor background-color:#EEEEDD; */
+		}
+		#leftmenu a:active, #leftmenu a:visited, #leftmenu a:link{
+			/*fgcolor*/ color:#226285;
+			text-decoration: none;
+		}
+		#leftmenu a:hover	{
+			/*fgcolor*/ color:#851912;
+			text-decoration: underline;
+		}
+	
+	/*MAIN*/
+		.maincell,#main,.post,.postbody,.posthead,.postfoot,.date,p.date,p.date span{
+			/*fgcolor*/ color:black;
+			/*bgcolor background-color:none; */
+
+		} 
+		.posthead {
+  			border-bottom-color: #993300;
+		}
+		p.data a,.posthead a,.postbody a,.postfoot a{
+			/*fgcolor*/ color:#226285;
+			text-decoration: none;
+		}
+		.postbody a{
+			text-decoration: underline;
+		}
+		
+	
+	/*FOOT*/
+		.copyright,footercell,#footer {
+			background-color:#EDE4DF;
+		    color:black;
+			margin:0px;
+			padding:0px;
+			text-align:center;
+		}
+		#footer a{
+			/*fgcolor*/ color:#226285;
+			text-decoration: underline;
+		}
+
+/*position related.*/
+	body {
+		margin:0px;
+		padding:0px;
+	}
+	.myquote {
+		BORDER-RIGHT: #cccccc 1px solid;
+		BORDER-TOP: #cccccc 1px solid;
+		BORDER-LEFT: #cccccc 1px solid; 
+		WIDTH: 80%; 
+		WORD-BREAK: break-all;  
+		BORDER-BOTTOM: #cccccc 1px solid; 
+		BACKGROUND-COLOR: #EEEEDD;
+		padding:2px;
+		margin:9px;
+		margin-left:4em;
+	}
+	.Framework	{
+		border:none;
+		margin:0px;
+		padding:0px;
+	}
+
+	/* Left */
+		.LeftCell{
+			width:240px;
+			margin:0px;
+			border:1px solid #8D8D8D;
+			border-top:none;
+			border-left:none;
+			border-bottom:none;
+		}
+		#leftmenu{
+			width:240px;
+			padding:20px;
+		}
+		#cell{
+			border:none;
+			margin:0px;
+			padding:0px;
+			/*margin-bottom: 10;
+			padding-bottom: 0;*/
+		}
+		#cal h3,#cell h3,#leftmenu h3{
+			/*height:25px;*/
+		    /*padding-top:5px;*/
+			background-image:none;
+			/*background-image:url("http://www.cnweblog.com/images/cnweblog_com/xiaoranzzz/3849/o_HeaderBGImage.jpg");
+			background-repeat:repeat-x;*/
+		}
+	/*MAIN*/
+
+		.mainCell{
+			margin:0px;
+		}
+		#main {
+			margin-left:15px;
+		}
+		.post {
+			border:none;
+			/*border:1px solid #8D8D8D;*/
+		   	margin-left:15px;
+			margin-right:15px;
+			margin-bottom:25px;
+		}
+		.postbody,.postfoot {
+			margin:0px;
+			margin-left:0px;
+		}
+		.postbody{
+			padding-top:20px;
+			line-height:150%;
+		}
+		.postbody p {
+			text-indent:2em;
+		}
+		.postfoot{
+			border:none;
+			font-size: 0.9em;
+			text-align:right;
+		}
+
+	/*foot*/
+		.footercell,#footerr {
+			text-align:center;
+			margin:0px;
+			padding:0px;
+			display:none;
+		}

@@ -1,0 +1,103 @@
+.LeftCell
+{
+	width: 240px;
+                           border:1px solid #dddddd;
+                           color:#7B7D62;
+}
+
+#leftmenu
+{
+	left: 0px;
+	width: 240px;
+	padding-left: 0px;
+	padding-bottom: 5px;
+}
+#cell {	
+                           border: 0px solid #dddddd;
+	margin: 0;
+	padding-bottom: 0;
+}
+#cal h3,#cell h3,#leftmenu h3
+{
+	margin: 0px;
+	padding: 5px;
+	background-color: #eeeeee;
+	background-position: bottom;
+	background-repeat: repeat-x;
+	color: #666666;
+}
+.post {
+	border:1px dotted #8B8D72;
+   	background-color:White;
+   	margin-left:15px;
+                          margin-right:15px;
+	margin-bottom:20px;
+                          color:#7F3432;
+}
+.posthead
+{
+	padding: 4 4 4 25;
+}
+.postbody
+{
+                           padding:10px;
+                           padding-bottom:5px;
+                           margin-bottom:0px;
+                           line-height:150%;
+                           font-size:0.9em;
+}
+.postfoot
+{
+	padding: 4px;
+	margin: 0px;
+	color: #AAAAAA;
+	font-size: 0.9em;
+                           text-align:right;
+                           border:0px;
+}
+.maincell,#main {
+                          margin:0px;
+}
+/* text clor*/
+body{
+	color:yellowgreen;
+	background-color:black;
+}
+.maincell,.leftcell,.footcell{
+	color:yellowgreen;
+	background-color:black;
+} 
+/*#main,#leftmenu,#footer{
+	color:yellowgreen;
+	background-color:black;
+} */
+.postbody,.posthead,.postfoot{
+	color:yellowgreen;
+	background-color:black;
+} 
+p.date,p.date span{
+	color:yellowgreen;
+	background-color:black;
+}
+.RecentComment{
+    color:beige;
+}
+/*link color */
+a,.posthead a,.postbody a,#footer a{
+	color:Aquamarine;
+	text-decoration: underline;
+}
+.postfoot a,p.date a,.#leftmenu a:active, #leftmenu a:visited, #leftmenu a:link
+{
+	color:Aquamarine;
+	text-decoration: none;
+}
+a:hover,#leftmenu a:hover
+{
+	color:Yellow;
+	text-decoration: underline;
+}
+#footer{
+	color:yellowgreen;
+	background-color:black;
+}

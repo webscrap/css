@@ -1,0 +1,349 @@
+body
+{
+	font-size: 12px;
+	font-family: YoonGothic, AppleGothic;
+	line-height: 150%;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-color: #777777;
+}
+
+p
+{
+	margin: 0px 0px;
+}
+
+A:link
+{
+	color: #6600cc;
+	text-decoration: none;
+}
+A:visited
+{
+	color: #6600cc;
+	text-decoration: none;
+}
+A:hover
+{
+	text-decoration: underline;
+}
+
+img
+{
+	border-width: 0;
+}
+
+#wrap
+{
+	position: relative;
+	margin: 0 auto;
+	padding: 20px 0px 20px 0px;
+	text-align: left;
+	width: 816px;
+	height:100%;
+}
+
+html > #wrap
+{
+	width: 816px;
+	height:100%;
+}
+
+#notetop
+{
+	background: url( "./images/notetop.gif" ) no-repeat;
+	width: 816px;
+	height: 86px;
+	color: #999999;
+	text-align: center;
+	font-weight: bold;
+	line-height: 34px;
+}
+
+#notemiddle
+{
+	padding: 10px 15px 0px 15px;
+	margin: 0px;
+	background: url( "images/notemiddle.gif" ) repeat-y;
+	width: 816px;	
+
+}
+
+#content
+{
+	width: 500px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: YoonGothic, AppleGothic;
+	color: #444444;
+	text-align: left;
+	margin: 0px 0px 0px 10px;
+	line-height: 18px;
+	background-color: none;
+	
+	margin-bottom: 10px;
+	padding-bottom: 0px;
+    float:left;
+	
+}
+
+html > body #content
+{
+	
+}
+
+#notebottom
+{
+	position: relative;
+	top: -11px;
+	background: url( "images/notebottom.gif" ) no-repeat;
+	width: 816px;
+	height: 67px;
+}
+
+#menu
+{
+	/*position: absolute;*/
+	float:right;
+	/*left: 550px;*/
+	font-size: 11px;
+	font-family: YoonGothic, AppleGothic, lucida grande,trebuchet ms,verdana,trebuchet,sans-serif;
+	text-align: left;
+	color: #333333;
+	padding: 0px 0px 0px 10px;
+	line-height: 15px;
+	background-color: none;
+	width: 222px;
+	vertical-align: top;
+	margin-top:0px;
+    padding-bottom:20px;
+
+}
+
+#menutop
+{
+	background: url( "./images/postit_top.gif" ) no-repeat 0 20px;
+	width: 222px;
+	height: 80px;
+	color: #999999;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 0px;
+	padding-bottom:0px;
+	padding: 0px 10px;
+		
+}
+
+#menumiddle
+{
+	padding: 0px 10px;
+	margin-top: -20px;
+	width: 222px;
+	background: url( "./images/postit_middle.gif" ) repeat-y;
+	
+}
+
+h2
+{
+	font-size: 13px;
+}
+
+
+#menu ul
+{
+	list-style: none;
+	margin-left:0px;
+	padding-left:0px;
+	padding-top:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+#menu a
+{
+	font-size:11px;
+	font-family: YoonGothic, AppleGothic, lucida grande,trebuchet ms,verdana,trebuchet,sans-serif;
+    
+}
+
+#menu li
+{
+	list-style: none;
+	padding-bottom:2px;
+	
+}
+
+#footer
+{
+	padding-bottom: 30px;
+}
+
+#header
+{
+	width: 222px;
+	height: 40px;
+	color: #999999;
+	text-align: center;
+	font-weight: bold;
+	margin-top:0px;
+	padding-top:0px;
+}
+
+#heade a:link
+{
+	color: #999999;
+}
+
+#header h1
+{
+	font-size: 18px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	
+}
+
+#header h1 a
+{
+	font-size: 18px;
+	color: #999999;
+}
+
+h2
+{
+	font-family: YoonGothic, AppleGothic, lucida grande,trebuchet ms,verdana,trebuchet,sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	letter-spacing: 0px;
+	line-height: 34px;
+	text-align: left;
+	background: url( "./images/brush_bar.gif" ) no-repeat -10 25px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+h2 a:link, h2 a:visited, h2 a:active
+{
+	font-family: YoonGothic, AppleGothic, lucida grande,trebuchet ms,verdana,trebuchet,sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.linex
+{
+	background-color: none;
+	background-image: url( "./images/dot.gif" );
+	background-repeat: repeat-x;
+	height: 2px;
+}
+.date
+{
+	margin: 10px 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	height: 20px;
+}
+
+.author
+{
+	font-family: verdana,trebuchet,sans-serif;
+	font-size: 9px;
+	color: #555555;
+	font-weight: normal;
+	padding-bottom: 8px;
+	letter-spacing: -0.1em;
+	text-align: right;
+	clear: both;
+}
+
+.post
+{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+h5
+{
+	font-family: YoonGothic, AppleGothic, lucida grande,trebuchet ms,verdana,trebuchet,sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	letter-spacing: 0px;
+	line-height: 34px;
+	text-align: left;
+	background: url( "./images/brush_bar.gif" ) no-repeat -10 25px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+h5 a:link, h5 a:visited, h5 a:active
+{
+	font-family: YoonGothic, AppleGothic, lucida grande,trebuchet ms,verdana,trebuchet,sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+}
+
+h3 {
+		position: relative;
+		left:-15px;
+		width: 222px;
+		height: 24px;
+		background-color:none;
+		padding-top:10px;
+		padding-left: 15px;
+		font-size:12px;
+		font-family:Verdana;
+		color: #555555;
+		font-weight: bold;
+		text-align: left;
+		margin-top: 5px;
+		font-size: 13px;
+		margin-bottom: 5px;
+		
+	}
+	
+h4
+{
+	font-family: YoonGothic, AppleGothic, lucida grande,trebuchet ms,verdana,trebuchet,sans-serif;
+	font-size: 12px;
+	color: #000000;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	font-weight:normal;
+}
+
+h4 a:link, h4 a:visited, h4 a:active
+{
+	font-family: YoonGothic, AppleGothic, lucida grande,trebuchet ms,verdana,trebuchet,sans-serif;
+	font-size: 12px;
+	margin-top: 0px;
+	font-weight:normal;
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+
+.commentpost
+{
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom:5px;
+	font-size: 12px;
+	font-family: YoonGothic, AppleGothic, lucida grande,trebuchet ms,verdana,trebuchet,sans-serif;
+	
+}
+
+#footer
+{
+	padding: 0px 30px 20px 20px;
+	margin: -15px 0px 0px 0px;
+	background: url( "images/notemiddle.gif" ) repeat-y;
+	width: 816px;
+	height:40px;
+	text-align:center;	
+			
+}
+	

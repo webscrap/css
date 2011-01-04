@@ -1,0 +1,31 @@
+#content,.linex{
+	width: 660px;
+}
+#wrap,#notemiddle,#notebottom
+
+{
+	width: 960px;
+}
+#menutop
+{
+	background: url("http://www.cnweblog.com/images/cnweblog_com/xiaoranzzz/6990/o_Menutop.gif" ) no-repeat 0 20px;
+}
+#content {
+                     font-size:15px;
+                     line-height:150%;
+
+}
+.author
+ { 
+font-size:13px;
+}
+h2 a:link, h2 a:visited, h2 a:active 
+{
+ font-size:15px;
+}
+/*.date {
+	background: url("http://www.cnweblog.com/images/cnweblog_com/xiaoranzzz/3849/o_001.gif" )  no-repeat;
+                          height:80px;
+                          text-indent:80px;
+                      }
+*/
